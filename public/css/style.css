@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+html,
+body {
+    background-color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+    position: relative;
+
+}
+.weather-card{
+    margin: auto;
+}
+.item {
+    margin: auto;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    flex-direction: row;
+    width: 450px;
+    padding: 15px;
+}
+
+.item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.row1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.row3{
+    display: flex;
+    width: 100%;
+
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.location-input{
+    margin: auto;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    flex-direction: row;
+    width: 450px;
+    padding: 15px;
+}
+
+.countries{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.submit{
+    display: block;
+    padding: 15px;
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .item {
+      width: 85%;
+  }
+  
+  form{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.location-input{
+    width: 80%;
+    margin: auto;
+}
+}

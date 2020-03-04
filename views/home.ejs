@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather</title>
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/nav.css">
+</head>
+
+<body>
+	<div class="navbar">
+		<h4 class="site-logo">
+			YOUR WEATHER
+		</h4>
+		<ul class="nav-list">
+			<li class="list-item"><a href="#" rel="noopener noreferrer">HOME</a></li>
+		</ul>
+		<div class="menu">
+			Menu
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+	<div style="width: 100%; background-color: aqua;" class="menu-holder">
+		<ul class="menu-nav-list">
+			<li class="menu-list-item"><a href="#" rel="noopener noreferrer">Home</a></li>
+		</ul>
+	</div>
+	<br>
+	<div class="weather-card" id="app">
+		<Weather></Weather>
+		<br><br>
+		<!-- <h2 style="margin: auto;text-align: center;">Weather in countries</h2> -->
+		<!-- <div class="countries">
+			<Country country="China"></Country>
+			<Country country="Russia"></Country>
+			<Country country="Australia"></Country>
+			<Country country="Egypt"></Country>
+
+		</div> -->
+		<div style="text-align: center;">Data from <a href="https://openweathermap.org">openweathermap.org</a></div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="/js/axiosjs.js"></script>
+</body>
+
+</html>

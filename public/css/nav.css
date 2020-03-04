@@ -1,0 +1,71 @@
+a{
+    text-decoration: none;
+}
+/* Navigation bar */
+.navbar{
+    height: 70px;
+    background-color:#131418;
+}
+.site-logo{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1.2;
+    padding: 20px;
+    float: left;
+    color: white;
+}
+.nav-list{
+    list-style: none;
+    float: right;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    /* display: none; */
+
+}
+
+.list-item{
+    display: inline;
+    padding: 10px;
+    color: wheat;
+}
+
+.list-item :hover{
+    padding: 10px;
+    color: rgb(212, 203, 185); 
+}
+
+.list-item a{
+    color: white;
+    letter-spacing: 1.5;
+}
+
+/* menu on mobile */
+.menu{
+    padding: 20px;
+    float: right;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    display: none;
+}
+
+.menu-holder{
+    /* z-index: 1; */
+    display: none;
+}
+.menu-nav-list{
+    display: block;
+}
+.menu-list-item{
+    height: 20px;
+    border-bottom: 1px solid white;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu-list-item a{
+    color: white;
+}
